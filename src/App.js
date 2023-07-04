@@ -81,10 +81,14 @@ function Form({ onAddItems }) {
 function PackagingList({ items, onDeleteItem, onToggleItem }) {
   const [sortBy, setSortBy] = useState("input");
 
+  let sortByItems;
+
+  if (sortBy === "input") sortByItems = items;
+
   return (
     <div className="list">
       <ul>
-        {items.map((item) => (
+        {sortByItems.map((item) => (
           <Item
             item={item}
             onDeleteItem={onDeleteItem}
