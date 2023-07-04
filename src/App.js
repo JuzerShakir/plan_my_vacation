@@ -146,7 +146,7 @@ function Stats({ items }) {
 
   const numCount = items.length;
   const numPacked = items.filter((item) => item.packed).length;
-  const percentage = (numPacked / numCount) * 100;
+  const percentage = Math.round((numPacked / numCount) * 100);
 
   return (
     <footer className="stats">
