@@ -112,7 +112,7 @@ function Item({ item, onDeleteItem, onToggleItem }) {
 }
 
 function Stats({ items }) {
-  if (!items.length) {
+  if (!items?.length) {
     return (
       <p className="stats">
         <em>Start adding some items to your packing list 🚀</em>
