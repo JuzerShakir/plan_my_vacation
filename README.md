@@ -1,3 +1,26 @@
+<div align="center">
+  <img src="public/logo192.png" />
+  <h2>Travel List</h2>
+  <p>A react application for keeping track of travel items.</p>
+</div>
+
+<div align="center">
+
+  <!-- HTML -->
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+
+  <!-- CSS -->
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
+
+  <!-- REACT -->
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+
+  <!-- MORE BADGES visit https://github.com/Ileriayo/markdown-badges -->
+
+</div>
+
+---
+
 ### Available Scripts
 
 In the project directory, you can run:
