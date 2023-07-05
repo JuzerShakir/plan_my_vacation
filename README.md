@@ -1,6 +1,6 @@
 <div align="center">
   <img src="public/logo192.png" />
-  <h2>Travel List</h2>
+  <h2>Plan My Vacation</h2>
   <p>A react application for keeping track of travel items.</p>
 </div>
 
